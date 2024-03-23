@@ -7,6 +7,7 @@
 // One-byte operation code (opcode)
 // Controls the type of instruction (add, subtract, lookup, etc.)
 typedef enum {
+  OP_CONSTANT, // loads constant for use
   OP_RETURN, // return from the current function
 } OpCode;
 
